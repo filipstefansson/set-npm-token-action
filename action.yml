@@ -1,0 +1,9 @@
+name: "Set NPM Token Action"
+description: "Creates a .npmrc file with your NPM token inside it."
+inputs:
+  token:
+    description: "your npm token"
+    required: true
+runs:
+  using: "node12"
+  main: "dist/index.js"
