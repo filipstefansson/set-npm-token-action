@@ -1,5 +1,7 @@
 name: "Set NPM Token Action"
 description: "Creates a .npmrc file with your NPM token inside it."
+icon: "box"
+color: "red"
 inputs:
   token:
     description: "your npm token"
